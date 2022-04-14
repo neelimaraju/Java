@@ -19,7 +19,8 @@ public class DaysInMonth {
 		
 		month =sc1.nextInt();
 		
-		if((month==2) && (year%4==0))
+		if(((month==2) && (year%4==0))&&((year%100!=0)||(year%400==0)))
+
 		{
 			System.out.println("Number of days is 29");
 		}
